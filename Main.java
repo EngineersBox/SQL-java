@@ -12,13 +12,13 @@ public class Main {
 	public static MySQL MySQL;
 	static Connection c = null;
 
-  if (UseSQL == true) {
-    MySQL = new MySQL("HOSTNAME", "", "DATABASE", "USERNAME", "PASSWORD");
-      try {
-      c = MySQL.openConnection();
-    } catch (SQLException | ClassNotFoundException e) {
-      e.printStackTrace();
-    }
-  }
+  	if (UseSQL == true) {
+		MySQL = new MySQL("HOSTNAME", "", "DATABASE", "USERNAME", "PASSWORD");
+		try {
+			c = MySQL.openConnection();
+		} catch (SQLException | ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+  	}
 
 }
