@@ -1,8 +1,6 @@
 package com.examplepackage.mysql;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class SQLLink {
 
