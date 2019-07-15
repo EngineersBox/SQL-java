@@ -12,7 +12,7 @@ public class Main {
 	public static MySQL MySQL;
 	static Connection c = null;
 
-  	if (UseSQL == true) {
+  	if (UseSQL.equals(true)) {
 		MySQL = new MySQL("HOSTNAME", "", "DATABASE", "USERNAME", "PASSWORD");
 		try {
 			c = MySQL.openConnection();
